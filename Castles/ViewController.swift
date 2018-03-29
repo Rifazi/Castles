@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         //Set array of heights here
         land.heights = [6,1,4]
         
+        print("Number of castles built: ")
         print(land.totalCastles())
     }
 }
